@@ -38,7 +38,7 @@ M93Cx6 eeprom = M93Cx6(PWR_PIN, CS_PIN, SK_PIN, DO_PIN, DI_PIN, ORG_PIN);
 void setup() {
   int i = 0;
   char r;
-  char hello[12] = "Hello World!";
+  char hello[] = "Hello World!";
   Serial.begin(9600);
 
   eeprom.setChip(56);    // set chip 93C56

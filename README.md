@@ -34,7 +34,7 @@ M93Cx6 eeprom = M93Cx6(pwr, cs, sk, di, do, org);
 Once the library is initialized, set both the chip type (M93C46, M93C56...M93C86) and organization (ORG_8 or ORG_16).  If no chip or organization is selected, the library defaults to the M93C46 with ORG_16.
 ```
 eeprom.setChip(M93C56);
-eeprom.setOr(ORG_8);
+eeprom.setOrg(ORG_8);
 ```
 
 ## Usage:
